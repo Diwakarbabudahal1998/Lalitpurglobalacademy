@@ -1,7 +1,7 @@
 @extends('layouts.app', ['class' => 'bg-default'])
 
 @section('title')
-Login | Omega Secondary School
+Login | LGA School
 @endsection
 @section('content')
     @include('layouts.headers.guest')

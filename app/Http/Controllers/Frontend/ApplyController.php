@@ -49,20 +49,8 @@ class ApplyController extends Controller
              "required",
             "phone"=>
              "required",
-            "email"=>
-             "required",
-            "school_name"=>
-             "required",
-            "school_address"=>
-             "required",
-            "school_phone"=>
-             "required",
-            "school_board"=>
-             "required",
-            "school_passed"=>
-             "required",
-            "school_gpa"=>
-             "required",
+            
+           
             "country"=>
              "required",
             "province"=>
@@ -93,10 +81,7 @@ class ApplyController extends Controller
              "required",
             "t_street"=>
              "required",
-            "shift"=>
-             "required",
-            "stream"=>
-             "required",
+            
             
             "father_name"=>
              "required",
@@ -109,13 +94,8 @@ class ApplyController extends Controller
             "mother_occupation"=>
              "required",
      
-            "photo"=>
-            'image|mimes:jpeg,png,jpg,gif|max:2048',
-            "see_grade"=>
-            'mimes:jpeg,png,jpg,pdf|max:2048',
-            "see_card"=>
-            'mimes:jpeg,png,jpg,pdf|max:2048',
-            'agree' =>'required'
+            
+            
        
          
         ]);
@@ -127,12 +107,12 @@ class ApplyController extends Controller
        $apply->gender=$request->gender;
        $apply->phone=$request->phone;
        $apply->email=$request->email;
-       $apply->school_name=$request->email;
-       $apply->school_address=$request->school_address;
-       $apply->school_phone=$request->school_phone;
-       $apply->school_board=$request->school_board;
-       $apply->school_passed=$request->school_passed;
-       $apply->school_gpa=$request->school_gpa;
+       //$apply->school_name=$request->email;
+       //$apply->school_address=$request->school_address;
+       //$apply->school_phone=$request->school_phone;
+      // $apply->school_board=$request->school_board;
+      // $apply->school_passed=$request->school_passed;
+      // $apply->school_gpa=$request->school_gpa;
        $apply->country=$request->country;
        $apply->province=$request->province;
        $apply->district=$request->district;
@@ -143,8 +123,8 @@ class ApplyController extends Controller
        $apply->t_district=$request->t_district;
        $apply->t_ward_no=$request->t_ward_no;
        $apply->t_street=$request->t_street;
-       $apply->shift=$request->shift;
-       $apply->stream=$request->stream;
+       //$apply->shift=$request->shift;
+       //$apply->stream=$request->stream;
        $apply->hostel=$request->hostel;
        $apply->transportation=$request->transportation;
        $apply->father_name=$request->father_name;
@@ -161,18 +141,7 @@ class ApplyController extends Controller
        $extension = $apply_photo->getClientOriginalExtension();
        Storage::disk('public')->put($apply_photo->getFilename().'.'.$extension,  File::get($apply_photo));
         $apply->photo=$apply_photo->getFilename().'.'.$extension;
-        if($request->file('see_grade')){
-            $seegrade=$request->file('see_grade');
-            $extension = $seegrade->getClientOriginalExtension();
-            Storage::disk('public')->put($seegrade->getFilename().'.'.$extension,  File::get($seegrade));
-             $apply->see_grade=$seegrade->getFilename().'.'.$extension;
-        }
-        if($request->file('see_card')){
-            $seecard=$request->file('see_card');
-            $extension = $seecard->getClientOriginalExtension();
-            Storage::disk('public')->put($seecard->getFilename().'.'.$extension,  File::get($seecard));
-             $apply->see_card=$seecard->getFilename().'.'.$extension;
-        }
+       
         $apply->save();
         }
     /**

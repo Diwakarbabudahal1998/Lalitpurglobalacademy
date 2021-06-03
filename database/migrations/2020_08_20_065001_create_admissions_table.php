@@ -22,12 +22,7 @@ class CreateAdmissionsTable extends Migration
             $table->string('gender')->nullable();
             $table->string('phone')->nullable();
             $table->string('email')->nullable();
-            $table->string('school_name')->nullable();
-            $table->string('school_address')->nullable();
-            $table->string('school_phone')->nullable();
-            $table->string('school_board')->nullable();
-            $table->string('school_passed')->nullable();
-            $table->string('school_gpa')->nullable();
+           
             $table->string('country')->nullable();
             $table->string('province')->nullable();
             $table->string('district')->nullable();
@@ -38,8 +33,7 @@ class CreateAdmissionsTable extends Migration
             $table->string('t_district')->nullable();
             $table->string('t_ward_no')->nullable();
             $table->string('t_street')->nullable();
-            $table->string('shift')->nullable();
-            $table->string('stream')->nullable();
+           
             $table->string('hostel')->nullable()->default('No');
             $table->string('transportation')->nullable()->default('No');
             $table->string('father_name')->nullable();
@@ -53,8 +47,7 @@ class CreateAdmissionsTable extends Migration
             $table->string('mother_email')->nullable();
             $table->string('mother_phone')->nullable();
             $table->string('photo')->nullable();
-            $table->string('see_card')->nullable();
-            $table->string('see_grade')->nullable();
+          
             $table->timestamps();
         });
     }
