@@ -1,0 +1,23 @@
+.awards {
+    min-height: 400px;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+
+    background: url("../img/background1.jpg") center no-repeat;
+    .awards-overlay {
+        min-height: 400px;
+        background-color: rgba(255, 255, 255, 0.8);
+
+        h1 {
+            font-size: 36px;
+            line-height: 42px;
+            color: rgba(0, 0, 0, 0.8);
+            font-weight: 600;
+            margin-top: 120px;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    }
+}

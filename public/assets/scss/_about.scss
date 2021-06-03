@@ -1,0 +1,42 @@
+.about {
+    font-family: "Montserrat", sans-serif;
+
+    min-height: 500px;
+    margin-top: 50px;
+    .about-row {
+        .about-text {
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 46px;
+            }
+            h4 {
+                margin-top: 30px;
+                color: $theme_color1;
+                font-weight: 500;
+            }
+            p {
+                margin-top: 30px;
+                text-align: justify;
+                font-weight: 400;
+                color: black;
+                font-size: 20px;
+                line-height: 28px;
+            }
+            button {
+                margin-top: 30px;
+                padding: 15px 30px;
+                background-color: $theme_color1;
+                border: 0px;
+                border-radius: 30px;
+                font-size: 18px;
+                &:hover {
+                    background-color: white;
+                    border: 1px solid $theme_color1;
+                    color: $theme_color1;
+                    transition: 0.4s all;
+                }
+            }
+        }
+    }
+}

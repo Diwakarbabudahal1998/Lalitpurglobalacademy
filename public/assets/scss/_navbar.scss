@@ -1,0 +1,42 @@
+.navbar-top {
+  .bg-light {
+    min-height: 90px;
+    background-color: white !important;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 18px;
+        color: black;
+        padding: 10px 15px;
+        font-weight: 600;
+        line-height: 28px;
+        &:hover {
+          color: $theme_color1;
+          transition: 0.2s all;
+        }
+      }
+      .apply-btn {
+        background-color: $theme_color1;
+        border: none;
+        min-width: 150px;
+        font-size: 17px;
+        padding: 10px 20px;
+        display: inline-block;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid $theme_color1;
+          color: $theme_color1;
+          transition: 0.4s all;
+          font-weight: 400;
+        }
+      }
+    }
+    .active {
+      .nav-link {
+        color: $theme_color2 !important;
+        font-weight: bold;
+      }
+    }
+  }
+}

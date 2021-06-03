@@ -1,0 +1,20 @@
+.single-news {
+    font-family: "Karla", sans-serif;
+    h1 {
+        font-size: 30px;
+        font-weight: bold;
+        color: $theme_color1;
+        line-height: 42px;
+    }
+    .single-news-image {
+        img {
+            height: 500px;
+        }
+    }
+    .single-news-text {
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+}

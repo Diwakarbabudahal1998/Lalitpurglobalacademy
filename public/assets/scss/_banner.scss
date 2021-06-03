@@ -1,0 +1,54 @@
+.banner {
+    .carousel-item {
+        height: 550px;
+        min-height: 350px;
+        background: no-repeat center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .overlay {
+        height: 100%;
+        width: 100%;
+
+        background-color: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+    .carousel-caption {
+        height: 100%;
+        top: 15%;
+        right: 0px;
+        left: 15%;
+        color: white !important;
+        text-align: left;
+        z-index: 99;
+        h6 {
+            font-size: 20px;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 400;
+            font-family: "Poppins", sans-serif;
+        }
+        .line {
+            height: 4px;
+            width: 100px;
+            background-color: $theme_color2;
+            margin-bottom: 20px;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+        }
+        .banner-btn {
+            padding: 15px 30px;
+            margin-top: 30px;
+            border-radius: 30px;
+            border-color: #fff;
+            color: $theme_color3;
+            padding: 10px 20px;
+        }
+    }
+}

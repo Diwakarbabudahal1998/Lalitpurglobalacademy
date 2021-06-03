@@ -1,0 +1,28 @@
+.topbar {
+  height: 50px;
+  background-color: $theme_color1;
+  .topbar-left {
+    .topbar-left-items {
+      color: $theme_color3;
+      i {
+        font-size: 14px;
+        &:hover {
+          font-size: 16px;
+          transition: 0.2s all;
+        }
+      }
+    }
+  }
+  .topbar-right {
+    .topbar-right-items {
+      i {
+        color: white;
+        font-size: 14px;
+        &:hover {
+          font-size: 16px;
+          transition: 0.2s all;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.about-page {
+  font-family: "Montserrat", sans-serif;
+
+  .about-page-row {
+    .about-page-text {
+      h3 {
+        font-size: 32px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: $theme_color2;
+        margin-top: 30px;
+        line-height: 46px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+.about-main {
+  font-family: "Montserrat", sans-serif;
+
+  .about-main-menu {
+    padding: 20px;
+    h3 {
+      font-weight: 600;
+      color: $theme_color2;
+      line-height: 36px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 26px;
+    }
+    .list-group {
+      .list-group-item {
+        border: none;
+        border-top: 1px solid whitesmoke;
+        padding: 10px 0px;
+        h6 {
+          font-weight: 600;
+          font-size: 16px;
+          color: $theme_color1;
+          line-height: 22px;
+        }
+        i {
+          color: $theme_color2;
+        }
+        p {
+          font-size: 14px;
+          color: black;
+          font-weight: 500;
+        }
+        button {
+          padding: 8px 16px;
+          border-radius: 30px;
+          font-size: 14px;
+          background-color: $theme_color1;
+          border-color: $theme_color3;
+          color: $theme_color3;
+        }
+      }
+    }
+    .news-list {
+      .card {
+        border: none;
+        .card-body {
+          padding: 0px 0px 0px 10px;
+          .card-title {
+            font-weight: 600;
+            font-size: 14px;
+            color: $theme_color1;
+            line-height: 20px;
+            margin-bottom: 4px;
+          }
+          p {
+            font-size: 12px;
+            color: black;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
