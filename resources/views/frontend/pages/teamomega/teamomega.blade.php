@@ -105,7 +105,7 @@ Team LGA | LGA School
 
             </div>
             <div class="col-md-6 mt-4">
-                <img src="./assets/img/about/subanjan.JPG" class="img-fluid">
+                <img src="{{asset('assets/img/rj.jpg')}}" class="img-fluid">
             </div>
         </div>
     </div>
