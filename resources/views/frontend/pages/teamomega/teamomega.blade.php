@@ -14,7 +14,7 @@ Team LGA | LGA School
     <div class="container">
         <div class="row about-row">
             <div class="col-md-6 mt-4">
-                <img src="./assets/img/about/subanjan.JPG" class="img-fluid">
+                <img src="{{asset('assets/img/teacherdn.jpg')}}" class="img-fluid">
             </div>
             <div class="col-md-6 p-3 about-text">
 
@@ -64,7 +64,7 @@ Team LGA | LGA School
     <div class="container">
         <div class="row about-row">
             <div class="col-md-6 mt-4">
-                <img src="./assets/img/about/subanjan.jpg" class="img-fluid">
+                <img src="{{asset('assets/img/std.JPG')}}" class="img-fluid">
             </div>
             <div class="col-md-6 p-3 about-text">
 

@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-5">
-                    <img src="{{ asset('assets\img\principal.png') }}" class="img-fluid mt-4">
+                    <img src="{{ asset('assets\img\pri.jpg') }}" class="img-fluid mt-4">
                 </div>
                 <div class="col-md-7 mt-4">
                     <p>Dear Parents and Students,<br />
