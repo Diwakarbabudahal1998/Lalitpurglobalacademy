@@ -269,7 +269,7 @@ Home | LGA School
                     </div>
                     <div class="card-body">
                         <div class="card-posted"><i class="fa fa-clock px-1 my-2" aria-hidden="true"></i>{{ $n->created_at->diffForHumans() }}</div>
-                        <span class="badge badge-secondary text-light font-weight-0 mb-2">{{ $n->news_category }}</span>
+                        {{-- <span class="badge badge-secondary text-light font-weight-0 mb-2">{{ $n->news_category }}</span> --}}
                         <h5 class="card-title">{{ $n->news_title }}</h5>
                         <p class="card-text">{{ $n->news_description }}</p>
                         <a href="/news/{{ $n->id }}" class="btn btn-primary btn-news">Read More</a>
@@ -302,7 +302,7 @@ Home | LGA School
                                 <a href="/events/{{ $e->id }}">
                                     <h5 class="card-title">{{ $e->event_title }}</h5>
                                 </a>
-                                <span class="badge badge-secondary text-light font-weight-0 mb-2">{{ $e->event_category }}</span>
+                               {{--  <span class="badge badge-secondary text-light font-weight-0 mb-2">{{ $e->event_category }}</span> --}}
 
                                 <p class="card-text"><i class="fa fa-calendar-alt px-2" aria-hidden="true"></i>
                                     Starting on: {{ $e->event_start }}</p>
