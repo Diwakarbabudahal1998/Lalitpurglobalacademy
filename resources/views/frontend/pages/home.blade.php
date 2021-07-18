@@ -9,7 +9,7 @@ Home | LGA School
 <section class="banner">
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" style="background-image: url('./assets/img/banner/bs3.JPG');">
+            <div class="carousel-item active" style="background-image: url('./assets/img/banner/bs.JPG');">
                 <div class="overlay">
                     <div class="carousel-caption justify-content-left d-md-block">
                         <h6>15 Years of Excellence!</h6>
@@ -37,7 +37,7 @@ Home | LGA School
             <div class="carousel-item" style="background-image: url('./assets/img/banner/bs2.JPG');">
                 <div class="overlay">
                     <div class="carousel-caption justify-content-left d-md-block">
-                        <h6>10 Years of Excellence</h6>
+                        <h6>15 Years of Excellence</h6>
                         <h1>Welcome to Lalitpur Global Family</h1>
                         <div class="line"></div>
                         <div class="row">
