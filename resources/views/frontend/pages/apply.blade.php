@@ -40,8 +40,7 @@
           <h6>Tel: 01-5201144/ 9851103601</h6>
         </div>
       </div>
-      <form method="POST" action="/apply" encType="multipart/form-data" class=" mt-3 p-4"
-        style="border:1px solid #d5d5d5;">
+      <form method="POST" action="/apply" encType="multipart/form-data" class=" mt-3 p-4" style="border:1px solid #d5d5d5;">
         <h2 class="text-uppercase font-weight-bold">Application Form for Admission</h2>
         <small>All the field with <span class="text-danger">*</span> are required.</small>
         <hr>
@@ -53,8 +52,7 @@
 
           <div class="form-group col-md-4">
             <label>First Name <span class="text-danger">*</span></label>
-            <input type="text" name="first_name"
-              class="form-control {{($errors->first('first_name') ? " form-error" : "")}}">
+            <input type="text" name="first_name" class="form-control {{($errors->first('first_name') ? " form-error" : "")}}">
             <div class="error text-danger">{{ $errors->first('first_name') }}</div>
           </div>
           <div class="form-group col-md-4">
@@ -63,8 +61,7 @@
           </div>
           <div class="form-group col-md-4">
             <label>Last Name <span class="text-danger">*</span></label>
-            <input type="text" name="last_name"
-              class="form-control {{($errors->first('last_name') ? " form-error" : "")}}"">
+            <input type="text" name="last_name" class="form-control {{($errors->first('last_name') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('last_name') }}
           </div>
 
@@ -81,13 +78,11 @@
       <label>Gender <span class="text-danger">*</span></label>
       <div class="form-control" style="border:none;">
         <div class="form-check form-check-inline">
-          <input name="gender" class="form-check-input {{($errors->first('gender') ? " form-error" : "")}}"" type="
-            radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
+          <input name="gender" class="form-check-input {{($errors->first('gender') ? " form-error" : "")}}"" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Male">
           <label class="form-check-label" for="inlineRadio1">Male</label>
         </div>
         <div class="form-check form-check-inline">
-          <input name="gender" class="form-check-input {{($errors->first('gender') ? " form-error" : "")}}"" type="
-            radio" name="inlineRadioOptions" id="inlineRadio2" value="Female">
+          <input name="gender" class="form-check-input {{($errors->first('gender') ? " form-error" : "")}}"" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Female">
           <label class="form-check-label" for="inlineRadio2">Female</label>
         </div>
       </div>
@@ -111,8 +106,10 @@
       <div class=" error text-danger">{{ $errors->first('email') }}
   </div>
 
+  </div>
+  <div class="form-group col-md-6">
+    
  
-
 
   </div>
   </div>
@@ -123,47 +120,41 @@
 
     <div class="form-group col-md-4">
       <label>Name of the School<span class="text-danger"></span></label>
-      <input type="text" name="school_name"
-        class="form-control {{($errors->first('school_name') ? " form-error" : "")}}"">
+      <input type="text" name="school_name" class="form-control {{($errors->first('school_name') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('school_name') }}
     </div>
 
   </div>
   <div class="form-group col-md-4">
     <label>Address<span class="text-danger"></span></label>
-    <input type="text" name="school_address"
-      class="form-control {{($errors->first('school_address') ? " form-error" : "")}}"">
+    <input type="text" name="school_address" class="form-control {{($errors->first('school_address') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('school_address') }}
   </div>
 
   </div>
   <div class="form-group col-md-4">
     <label>Phone No.<span class="text-danger"></span></label>
-    <input type="number" min="0" name="school_phone"
-      class="form-control {{($errors->first('school_phone') ? " form-error" : "")}}"">
+    <input type="number" min="0" name="school_phone" class="form-control {{($errors->first('school_phone') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('school_phone') }}
   </div>
 
   </div>
   <div class="form-group col-md-4">
     <label>Board<span class="text-danger"></span></label>
-    <input type="text" name="school_board"
-      class="form-control {{($errors->first('school_board') ? " form-error" : "")}}"">
+    <input type="text" name="school_board" class="form-control {{($errors->first('school_board') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('school_board') }}
   </div>
 
   </div>
   <div class="form-group col-md-4">
     <label>Passed Year<span class="text-danger"></span></label>
-    <input type="number" min="0" class="form-control {{($errors->first('school_passed') ? " form-error" : "")}}"" name="
-      school_passed">
+    <input type="number" min="0" class="form-control {{($errors->first('school_passed') ? " form-error" : "")}}"" name=" school_passed">
     <div class="error text-danger">{{ $errors->first('school_passed') }}</div>
 
   </div>
   <div class="form-group col-md-4">
     <label>GPA Obtained<span class="text-danger"></span></label>
-    <input type="number" min="0" class="form-control {{($errors->first('school_gpa') ? " form-error" : "")}}"" name="
-      school_gpa">
+    <input type="number" min="0" class="form-control {{($errors->first('school_gpa') ? " form-error" : "")}}"" name=" school_gpa">
     <div class="error text-danger">{{ $errors->first('school_gpa') }}</div>
 
   </div>
@@ -184,8 +175,7 @@
   </div>
   <div class="form-group col-md-3">
     <label>Province<span class="text-danger">*</span></label>
-    <input type="number" min="0" name="province"
-      class="form-control {{($errors->first('province') ? " form-error" : "")}}"">
+    <input type="number" min="0" name="province" class="form-control {{($errors->first('province') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('province') }}
   </div>
 
@@ -199,8 +189,7 @@
   </div>
   <div class="form-group col-md-4">
     <label>Ward No<span class="text-danger">*</span></label>
-    <input type="number" min="0" name="ward_no"
-      class="form-control {{($errors->first('ward_no') ? " form-error" : "")}}"">
+    <input type="number" min="0" name="ward_no" class="form-control {{($errors->first('ward_no') ? " form-error" : "")}}"">
       <div class=" error text-danger">{{ $errors->first('ward_no') }}
   </div>
 
@@ -227,8 +216,7 @@
     </div>
     <div class="form-group col-md-3">
       <label>Province<span class="text-danger">*</span></label>
-      <input type="number" min="0" name="t_province"
-        class="form-control {{($errors->first('t_province') ? " form-error" : "")}}""">
+      <input type="number" min="0" name="t_province" class="form-control {{($errors->first('t_province') ? " form-error" : "")}}""">
       <div class="error text-danger">{{ $errors->first('t_province') }}</div>
 
     </div>
@@ -240,8 +228,7 @@
     </div>
     <div class="form-group col-md-4">
       <label>Ward No<span class="text-danger">*</span></label>
-      <input type="number" min="0" name="t_ward_no"
-        class="form-control {{($errors->first('t_ward_no') ? " form-error" : "")}}""">
+      <input type="number" min="0" name="t_ward_no" class="form-control {{($errors->first('t_ward_no') ? " form-error" : "")}}""">
       <div class="error text-danger">{{ $errors->first('t_ward_no') }}</div>
 
     </div>
@@ -265,8 +252,7 @@
 
     <div class="form-group col-md-10">
       <label>Do you need hostel accomodation facility?</label>
-      <input name="hostel" value="Yes" type="checkbox" class="float-right d-block" name="hostel"
-        style="height:20px;width:20px;">
+      <input name="hostel" value="Yes" type="checkbox" class="float-right d-block" name="hostel" style="height:20px;width:20px;">
     </div>
 
 
@@ -280,8 +266,7 @@
 
     <div class="form-group col-md-10">
       <label>Do you need transportation facility?</label>
-      <input name="transportation" value="Yes" type="checkbox" class="float-right d-block" name="transportation"
-        style="height:20px;width:20px;">
+      <input name="transportation" value="Yes" type="checkbox" class="float-right d-block" name="transportation" style="height:20px;width:20px;">
     </div>
 
 
@@ -295,15 +280,13 @@
 
     <div class="form-group col-md-4">
       <label><b>Fathers's Name</b><span class="text-danger">*</span></label>
-      <input type="text" name="father_name"
-        class="form-control {{($errors->first('father_name') ? " form-error" : "")}}">
+      <input type="text" name="father_name" class="form-control {{($errors->first('father_name') ? " form-error" : "")}}">
       <div class="error text-danger">{{ $errors->first('father_name') }}</div>
 
     </div>
     <div class="form-group col-md-3">
       <label>Occupation<span class="text-danger">*</span></label>
-      <input type="text" name="father_occupation"
-        class="form-control {{($errors->first('father_occupation') ? " form-error" : "")}}">
+      <input type="text" name="father_occupation" class="form-control {{($errors->first('father_occupation') ? " form-error" : "")}}">
       <div class="error text-danger">{{ $errors->first('father_occupation') }}</div>
 
     </div>
@@ -328,15 +311,13 @@
 
     <div class="form-group col-md-4">
       <label><b>Mothers's Name</b><span class="text-danger">*</span></label>
-      <input type="text" name="mother_name"
-        class="form-control {{($errors->first('mother_name') ? " form-error" : "")}}">
+      <input type="text" name="mother_name" class="form-control {{($errors->first('mother_name') ? " form-error" : "")}}">
       <div class="error text-danger">{{ $errors->first('mother_name') }}</div>
 
     </div>
     <div class="form-group col-md-3">
       <label>Occupation<span class="text-danger">*</span></label>
-      <input type="text" name="mother_occupation"
-        class="form-control {{($errors->first('mother_occupation') ? " form-error" : "")}}">
+      <input type="text" name="mother_occupation" class="form-control {{($errors->first('mother_occupation') ? " form-error" : "")}}">
       <div class="error text-danger">{{ $errors->first('mother_occupation') }}</div>
 
     </div>
@@ -360,8 +341,7 @@
   <hr>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" name="agree">
-    <label class="form-check-label {{($errors->first('agree') ? " form-error" : "")}}" value="true">I agree that all my
-      documents and information submitted with this form are true and correct.</label>
+    <label class="form-check-label {{($errors->first('agree') ? " form-error" : "")}}" value="true">I agree that all my documents and information submitted with this form are true and correct.</label>
     <div class="error text-danger">{{ $errors->first('agree') }}</div>
 
   </div>
@@ -403,7 +383,6 @@
 </script>
 
 <!-- Your Chat Plugin code -->
-<div class="fb-customerchat" attribution="setup_tool" page_id="673272012686199" theme_color="#752a90"
-  logged_in_greeting="Hi! How can we help you?" logged_out_greeting="Hi! How can we help you?"></div>
+<div class="fb-customerchat" attribution="setup_tool" page_id="673272012686199" theme_color="#752a90" logged_in_greeting="Hi! How can we help you?" logged_out_greeting="Hi! How can we help you?"></div>
 
 </html>
