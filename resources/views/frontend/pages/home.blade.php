@@ -9,7 +9,7 @@ Home | LGA School
 <section class="banner">
     <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
         <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" style="background-image: url('./assets/img/banner/bs.JPG');">
+            <div class="carousel-item active" style="background-image: url('./assets/img/banner/bs2.JPG');">
                 <div class="overlay">
                     <div class="carousel-caption justify-content-left d-md-block">
                         <h6>15 Years of Excellence!</h6>
