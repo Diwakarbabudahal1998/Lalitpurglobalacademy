@@ -157,11 +157,12 @@ Home | LGA School
     <div class="container">
         <div class="row about-row">
             <div class="col-md-6 mt-4">
-                <img src="./assets/img/about/subanjan.JPG" class="img-fluid">
+                
+                <img src="{{ asset('assets\img\about\subanjan.jpg') }}" class="img-fluid">
             </div>
             <div class="col-md-6 p-3 about-text">
                 <h2>We are expert of the Best Educational Institutions.</h2>
-                <h4>14 Years of Excellence!</h4>
+                <h4>15 Years of Excellence!</h4>
                 <p>Situated at the prime location of Kathmandu valley, Imadol, Lalitpur, Lalitpur Global secondary school has
                     proved its
                     academic strength by making a difference to individuals and community. We are proud to look back

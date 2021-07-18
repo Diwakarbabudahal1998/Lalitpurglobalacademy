@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Add a Video | Omega Secondary School
+Add a Video | LGA
 @endsection
 
 @push('js')

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-E-Library | Omega Secondary School
+E-Library | LGA
 @endsection
 @section('content')
     @include('layouts.headers.cards')

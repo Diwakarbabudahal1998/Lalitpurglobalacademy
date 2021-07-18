@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Showing Admissions | Omega Secondary School
+Showing Admissions | LGA
 @endsection
 @section('content')
 @include('layouts.headers.cards')
@@ -58,11 +58,7 @@ Showing Admissions | Omega Secondary School
               <input value="{{$admission->email}}" disabled class="form-control">
 
             </div>
-            <div class="form-group col-md-6">
-              <label>Photo </label><br>
-              <img src="{{asset('/storage/'.$admission->photo)}}" style="height:200px;width:200px;" />
 
-            </div>
           </div>
 
 

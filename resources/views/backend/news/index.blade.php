@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-News | Omega Secondary School
+News | LGA
 @endsection
 @section('content')
     @include('layouts.headers.cards')

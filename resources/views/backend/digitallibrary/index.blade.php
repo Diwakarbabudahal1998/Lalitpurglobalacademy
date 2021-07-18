@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Digital Library | Omega Secondary School
+Digital Library | LGA
 @endsection
 @section('content')
     @include('layouts.headers.cards')

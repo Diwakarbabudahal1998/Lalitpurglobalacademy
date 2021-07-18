@@ -18,10 +18,10 @@ class UsersTableSeeder extends Seeder
         $admin=Role::find(1);
         $user->assignRole($admin);
         User::create([
-            'name' => 'Admin',
-            'email' => 'admin@test.com',
+            'name' => 'Lalitpur Global Academy',
+            'email' => 'lga2063@gmail.com',
             'email_verified_at' => now(),
-            'password' => Hash::make('secret'),
+            'password' => Hash::make('lalitpur123456'),
             'created_at' => now(),
             'updated_at' => now()
         ],);

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Edit Events | Omega Secondary School
+Edit Events | LGA
 @endsection
 @section('content')
     @include('layouts.headers.cards')

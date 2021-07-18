@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-Add a Book | Omega Secondary School
+Add a Book | LGA
 @endsection
 
 @push('js')

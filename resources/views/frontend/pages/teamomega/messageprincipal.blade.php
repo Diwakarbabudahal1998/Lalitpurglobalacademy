@@ -15,7 +15,7 @@
                         <h2>Message from Principal</h2>
                     </div>
                     <div class="about-links">
-                        Team-Omega <i class="fa fa-angle-right px-2" aria-hidden="true"></i> <span>Message</span>
+                        Team-LGA <i class="fa fa-angle-right px-2" aria-hidden="true"></i> <span>Message</span>
                     </div>
                 </div>
             </div>

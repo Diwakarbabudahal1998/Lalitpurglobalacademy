@@ -107,11 +107,7 @@
   </div>
 
   </div>
-  <div class="form-group col-md-6">
-    <label>Photo <small> ( The photo must be PNG/JPEG format and less than 2MB. )</small></label>
-    <input type="file" name="photo" class="form-control {{($errors->first('photo') ? " form-error" : "")}}"" >
-      <div class=" error text-danger">{{ $errors->first('photo') }}
-  </div>
+  
 
   </div>
   </div>
